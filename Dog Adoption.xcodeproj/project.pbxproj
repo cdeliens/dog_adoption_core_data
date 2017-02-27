@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0096161E64DFE80091EEEE /* DogDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0096151E64DFE80091EEEE /* DogDetailTableViewController.m */; };
+		AC9BA3FC1E64853C002BA3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA3FB1E64853C002BA3BC /* main.m */; };
+		AC9BA3FF1E64853C002BA3BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA3FE1E64853C002BA3BC /* AppDelegate.m */; };
+		AC9BA4051E64853C002BA3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4031E64853C002BA3BC /* Main.storyboard */; };
+		AC9BA4071E64853C002BA3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4061E64853C002BA3BC /* Assets.xcassets */; };
+		AC9BA40A1E64853C002BA3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4081E64853C002BA3BC /* LaunchScreen.storyboard */; };
+		AC9BA4131E648799002BA3BC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4121E648799002BA3BC /* Dog.m */; };
+		AC9BA4161E649837002BA3BC /* DogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4151E649837002BA3BC /* DogsViewController.m */; };
+		AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */; };
+		AC9BA41B1E649DF8002BA3BC /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */; };
+		AC9BA4201E649E3D002BA3BC /* UITableViewCell+GetClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA41D1E649E3D002BA3BC /* UITableViewCell+GetClassName.m */; };
+		AC9BA4211E649E3D002BA3BC /* UITableView+RegisterCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA41F1E649E3D002BA3BC /* UITableView+RegisterCustomCell.m */; };
+		AC9BA42F1E64B68E002BA3BC /* 10dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4251E64B68E002BA3BC /* 10dog.jpg */; };
+		AC9BA4301E64B68E002BA3BC /* 1dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4261E64B68E002BA3BC /* 1dog.jpeg */; };
+		AC9BA4311E64B68E002BA3BC /* 2dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4271E64B68E002BA3BC /* 2dog.jpg */; };
+		AC9BA4321E64B68E002BA3BC /* 3dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4281E64B68E002BA3BC /* 3dog.jpeg */; };
+		AC9BA4331E64B68E002BA3BC /* 4dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4291E64B68E002BA3BC /* 4dog.jpeg */; };
+		AC9BA4341E64B68E002BA3BC /* 5dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42A1E64B68E002BA3BC /* 5dog.jpeg */; };
+		AC9BA4351E64B68E002BA3BC /* 6dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42B1E64B68E002BA3BC /* 6dog.jpeg */; };
+		AC9BA4361E64B68E002BA3BC /* 7dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */; };
+		AC9BA4371E64B68E002BA3BC /* 8dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */; };
+		AC9BA4381E64B68E002BA3BC /* 9dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0096141E64DFE80091EEEE /* DogDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogDetailTableViewController.h; sourceTree = "<group>"; };
+		AC0096151E64DFE80091EEEE /* DogDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogDetailTableViewController.m; sourceTree = "<group>"; };
+		AC9BA3F71E64853C002BA3BC /* Dog Adoption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Adoption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9BA3FB1E64853C002BA3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9BA3FD1E64853C002BA3BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC9BA3FE1E64853C002BA3BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC9BA4041E64853C002BA3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9BA4061E64853C002BA3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9BA4091E64853C002BA3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9BA40B1E64853C002BA3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9BA4111E648799002BA3BC /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		AC9BA4121E648799002BA3BC /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		AC9BA4141E649837002BA3BC /* DogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogsViewController.h; sourceTree = "<group>"; };
+		AC9BA4151E649837002BA3BC /* DogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogsViewController.m; sourceTree = "<group>"; };
+		AC9BA4171E649DF8002BA3BC /* DogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogTableViewCell.h; sourceTree = "<group>"; };
+		AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogTableViewCell.m; sourceTree = "<group>"; };
+		AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DogTableViewCell.xib; sourceTree = "<group>"; };
+		AC9BA41C1E649E3D002BA3BC /* UITableViewCell+GetClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+GetClassName.h"; sourceTree = "<group>"; };
+		AC9BA41D1E649E3D002BA3BC /* UITableViewCell+GetClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+GetClassName.m"; sourceTree = "<group>"; };
+		AC9BA41E1E649E3D002BA3BC /* UITableView+RegisterCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterCustomCell.h"; sourceTree = "<group>"; };
+		AC9BA41F1E649E3D002BA3BC /* UITableView+RegisterCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterCustomCell.m"; sourceTree = "<group>"; };
+		AC9BA4251E64B68E002BA3BC /* 10dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10dog.jpg; path = dogs/10dog.jpg; sourceTree = "<group>"; };
+		AC9BA4261E64B68E002BA3BC /* 1dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1dog.jpeg; path = dogs/1dog.jpeg; sourceTree = "<group>"; };
+		AC9BA4271E64B68E002BA3BC /* 2dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2dog.jpg; path = dogs/2dog.jpg; sourceTree = "<group>"; };
+		AC9BA4281E64B68E002BA3BC /* 3dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3dog.jpeg; path = dogs/3dog.jpeg; sourceTree = "<group>"; };
+		AC9BA4291E64B68E002BA3BC /* 4dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4dog.jpeg; path = dogs/4dog.jpeg; sourceTree = "<group>"; };
+		AC9BA42A1E64B68E002BA3BC /* 5dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5dog.jpeg; path = dogs/5dog.jpeg; sourceTree = "<group>"; };
+		AC9BA42B1E64B68E002BA3BC /* 6dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6dog.jpeg; path = dogs/6dog.jpeg; sourceTree = "<group>"; };
+		AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7dog.jpeg; path = dogs/7dog.jpeg; sourceTree = "<group>"; };
+		AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8dog.jpeg; path = dogs/8dog.jpeg; sourceTree = "<group>"; };
+		AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9dog.jpeg; path = dogs/9dog.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9BA3F41E64853B002BA3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9BA3EE1E64853B002BA3BC = {
+			isa = PBXGroup;
+			children = (
+				AC9BA3F91E64853C002BA3BC /* Dog Adoption */,
+				AC9BA3F81E64853C002BA3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9BA3F81E64853C002BA3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BA3F71E64853C002BA3BC /* Dog Adoption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9BA3F91E64853C002BA3BC /* Dog Adoption */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BA4221E64A00E002BA3BC /* Utilities */,
+				AC9BA4231E64A01F002BA3BC /* Dogs */,
+				AC9BA3FD1E64853C002BA3BC /* AppDelegate.h */,
+				AC9BA3FE1E64853C002BA3BC /* AppDelegate.m */,
+				AC9BA4031E64853C002BA3BC /* Main.storyboard */,
+				AC9BA4061E64853C002BA3BC /* Assets.xcassets */,
+				AC9BA4081E64853C002BA3BC /* LaunchScreen.storyboard */,
+				AC9BA40B1E64853C002BA3BC /* Info.plist */,
+				AC9BA3FA1E64853C002BA3BC /* Supporting Files */,
+			);
+			path = "Dog Adoption";
+			sourceTree = "<group>";
+		};
+		AC9BA3FA1E64853C002BA3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BA4251E64B68E002BA3BC /* 10dog.jpg */,
+				AC9BA4261E64B68E002BA3BC /* 1dog.jpeg */,
+				AC9BA4271E64B68E002BA3BC /* 2dog.jpg */,
+				AC9BA4281E64B68E002BA3BC /* 3dog.jpeg */,
+				AC9BA4291E64B68E002BA3BC /* 4dog.jpeg */,
+				AC9BA42A1E64B68E002BA3BC /* 5dog.jpeg */,
+				AC9BA42B1E64B68E002BA3BC /* 6dog.jpeg */,
+				AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */,
+				AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */,
+				AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */,
+				AC9BA3FB1E64853C002BA3BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9BA4221E64A00E002BA3BC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BA41C1E649E3D002BA3BC /* UITableViewCell+GetClassName.h */,
+				AC9BA41D1E649E3D002BA3BC /* UITableViewCell+GetClassName.m */,
+				AC9BA41E1E649E3D002BA3BC /* UITableView+RegisterCustomCell.h */,
+				AC9BA41F1E649E3D002BA3BC /* UITableView+RegisterCustomCell.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AC9BA4231E64A01F002BA3BC /* Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BA4111E648799002BA3BC /* Dog.h */,
+				AC9BA4121E648799002BA3BC /* Dog.m */,
+				AC9BA4171E649DF8002BA3BC /* DogTableViewCell.h */,
+				AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */,
+				AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */,
+				AC9BA4141E649837002BA3BC /* DogsViewController.h */,
+				AC9BA4151E649837002BA3BC /* DogsViewController.m */,
+				AC0096141E64DFE80091EEEE /* DogDetailTableViewController.h */,
+				AC0096151E64DFE80091EEEE /* DogDetailTableViewController.m */,
+			);
+			name = Dogs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9BA3F61E64853B002BA3BC /* Dog Adoption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9BA40E1E64853C002BA3BC /* Build configuration list for PBXNativeTarget "Dog Adoption" */;
+			buildPhases = (
+				AC9BA3F31E64853B002BA3BC /* Sources */,
+				AC9BA3F41E64853B002BA3BC /* Frameworks */,
+				AC9BA3F51E64853B002BA3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Adoption";
+			productName = "Dog Adoption";
+			productReference = AC9BA3F71E64853C002BA3BC /* Dog Adoption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9BA3EF1E64853B002BA3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christian Deliens";
+				TargetAttributes = {
+					AC9BA3F61E64853B002BA3BC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC9BA3F21E64853B002BA3BC /* Build configuration list for PBXProject "Dog Adoption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9BA3EE1E64853B002BA3BC;
+			productRefGroup = AC9BA3F81E64853C002BA3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9BA3F61E64853B002BA3BC /* Dog Adoption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9BA3F51E64853B002BA3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9BA4371E64B68E002BA3BC /* 8dog.jpeg in Resources */,
+				AC9BA40A1E64853C002BA3BC /* LaunchScreen.storyboard in Resources */,
+				AC9BA4311E64B68E002BA3BC /* 2dog.jpg in Resources */,
+				AC9BA4351E64B68E002BA3BC /* 6dog.jpeg in Resources */,
+				AC9BA4321E64B68E002BA3BC /* 3dog.jpeg in Resources */,
+				AC9BA42F1E64B68E002BA3BC /* 10dog.jpg in Resources */,
+				AC9BA4331E64B68E002BA3BC /* 4dog.jpeg in Resources */,
+				AC9BA4301E64B68E002BA3BC /* 1dog.jpeg in Resources */,
+				AC9BA4381E64B68E002BA3BC /* 9dog.jpeg in Resources */,
+				AC9BA4341E64B68E002BA3BC /* 5dog.jpeg in Resources */,
+				AC9BA4071E64853C002BA3BC /* Assets.xcassets in Resources */,
+				AC9BA41B1E649DF8002BA3BC /* DogTableViewCell.xib in Resources */,
+				AC9BA4361E64B68E002BA3BC /* 7dog.jpeg in Resources */,
+				AC9BA4051E64853C002BA3BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9BA3F31E64853B002BA3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9BA3FF1E64853C002BA3BC /* AppDelegate.m in Sources */,
+				AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */,
+				AC9BA4201E649E3D002BA3BC /* UITableViewCell+GetClassName.m in Sources */,
+				AC9BA4131E648799002BA3BC /* Dog.m in Sources */,
+				AC9BA3FC1E64853C002BA3BC /* main.m in Sources */,
+				AC0096161E64DFE80091EEEE /* DogDetailTableViewController.m in Sources */,
+				AC9BA4211E649E3D002BA3BC /* UITableView+RegisterCustomCell.m in Sources */,
+				AC9BA4161E649837002BA3BC /* DogsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9BA4031E64853C002BA3BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9BA4041E64853C002BA3BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9BA4081E64853C002BA3BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9BA4091E64853C002BA3BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9BA40C1E64853C002BA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC9BA40D1E64853C002BA3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9BA40F1E64853C002BA3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dog Adoption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9BA4101E64853C002BA3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dog Adoption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9BA3F21E64853B002BA3BC /* Build configuration list for PBXProject "Dog Adoption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9BA40C1E64853C002BA3BC /* Debug */,
+				AC9BA40D1E64853C002BA3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9BA40E1E64853C002BA3BC /* Build configuration list for PBXNativeTarget "Dog Adoption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9BA40F1E64853C002BA3BC /* Debug */,
+				AC9BA4101E64853C002BA3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9BA3EF1E64853B002BA3BC /* Project object */;
+}
