@@ -25,10 +25,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.name.text = self.dogSelected.name;
-    self.location.text = self.dogSelected.location;
-    self.age.text = [NSString stringWithFormat:@"%i", self.dogSelected.age ];
-    self.color.text = self.dogSelected.color;
-    self.contactInformation.text = self.dogSelected.contactInformation;
+    self.location.text = [NSString stringWithFormat:@"Ubicación: %@", self.dogSelected.location] ;
+    self.age.text = [NSString stringWithFormat:@"Edad: %i", self.dogSelected.age ];
+    self.color.text = [NSString stringWithFormat:@"Color: %@", self.dogSelected.color] ;
+    self.contactInformation.text = [NSString stringWithFormat:@"Contacto: %@", self.dogSelected.contactInformation];
     self.image.image = [UIImage imageNamed:self.dogSelected.image];
     
     // Uncomment the following line to preserve selection between presentations.

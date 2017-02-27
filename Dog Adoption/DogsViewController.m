@@ -50,15 +50,15 @@
 - (void)initDogsArray
 {
     Dog *dogOne = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"1dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogTwo = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"2dog.jpg" contactInformation:@"Deliens" age:1];
-    Dog *dogThree = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"3dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogFour = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"4dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogFive = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"5dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogSix = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"6dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogSeven = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"7dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogEith = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"8dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogNine = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"9dog.jpeg" contactInformation:@"Deliens" age:1];
-    Dog *dogTen = [[Dog alloc] initWithName:@"Rufus" color:@"black" location:@"Cartago" image:@"10dog.jpg" contactInformation:@"Deliens" age:1];
+    Dog *dogTwo = [[Dog alloc] initWithName:@"Canelo" color:@"black" location:@"Cartago" image:@"2dog.jpg" contactInformation:@"Deliens" age:1];
+    Dog *dogThree = [[Dog alloc] initWithName:@"Argus" color:@"black" location:@"Cartago" image:@"3dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogFour = [[Dog alloc] initWithName:@"Sparky" color:@"black" location:@"Cartago" image:@"4dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogFive = [[Dog alloc] initWithName:@"Chaco" color:@"black" location:@"Cartago" image:@"5dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogSix = [[Dog alloc] initWithName:@"Titi" color:@"black" location:@"Cartago" image:@"6dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogSeven = [[Dog alloc] initWithName:@"Coco" color:@"black" location:@"Cartago" image:@"7dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogEith = [[Dog alloc] initWithName:@"Ramón" color:@"black" location:@"Cartago" image:@"8dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogNine = [[Dog alloc] initWithName:@"Pepe" color:@"black" location:@"Cartago" image:@"9dog.jpeg" contactInformation:@"Deliens" age:1];
+    Dog *dogTen = [[Dog alloc] initWithName:@"Lupe" color:@"black" location:@"Cartago" image:@"10dog.jpg" contactInformation:@"Deliens" age:1];
     
     self.dogsArray = [[NSMutableArray alloc] initWithObjects:dogOne, dogTwo, dogThree, dogFour, dogFive, dogSix, dogSeven, dogEith, dogNine, dogTen, nil];
     
