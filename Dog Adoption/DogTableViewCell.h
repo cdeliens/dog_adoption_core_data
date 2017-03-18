@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class Dog;
+@class CDDog;
 
 @interface DogTableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *dogImage;
 @property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 
--(void)setupCellWithDog:(Dog *) dog;
+-(void)setupCellWithDog:(CDDog *) dog;
 @end

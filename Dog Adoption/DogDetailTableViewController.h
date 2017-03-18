@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class Dog;
+@class CDDog;
 
 @interface DogDetailTableViewController : UITableViewController
-@property (nonatomic, strong) Dog *dogSelected;
+@property (nonatomic, strong) CDDog *dogSelected;
 
 @end

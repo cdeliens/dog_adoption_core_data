@@ -7,7 +7,7 @@
 //
 
 #import "DogTableViewCell.h"
-#import "Dog.h"
+#import "CDDog.h"
 
 @implementation DogTableViewCell
 
@@ -22,7 +22,7 @@
     // Configure the view for the selected state
 }
 
--(void)setupCellWithDog:(Dog *) dog
+-(void)setupCellWithDog:(CDDog *) dog
 {
     self.nameLabel.text = dog.name;
     self.dogImage.image = [UIImage imageNamed:dog.image];

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "682E008241EB616FCF19938A85C5A189A84369A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CCA190199914E70F2FEAEF4E28B436DDE236A381" : 9223372036854775807,
+    "C5CDD24B2EAE58237A8068BF9FD8313FA34DDAE1" : 9223372036854775807,
+    "682E008241EB616FCF19938A85C5A189A84369A0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "69F06E54-A1BE-46BF-85EF-76AA2309598A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CCA190199914E70F2FEAEF4E28B436DDE236A381" : "item_manager_quiz5\/",
+    "C5CDD24B2EAE58237A8068BF9FD8313FA34DDAE1" : "",
+    "682E008241EB616FCF19938A85C5A189A84369A0" : "Dog%20Adoption%20with%20CoreData\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Dog Adoption",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dog Adoption.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cdeliens\/ios_dog_adoption_app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "682E008241EB616FCF19938A85C5A189A84369A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cdeliens\/ios_concierge_project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C5CDD24B2EAE58237A8068BF9FD8313FA34DDAE1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cdeliens\/item_manager_core_data.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CCA190199914E70F2FEAEF4E28B436DDE236A381"
+    }
+  ]
+}

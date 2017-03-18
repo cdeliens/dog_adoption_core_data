@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC0096161E64DFE80091EEEE /* DogDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0096151E64DFE80091EEEE /* DogDetailTableViewController.m */; };
+		AC6DFFE91E7901E3004C2593 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC6DFFE71E7901E3004C2593 /* Model.xcdatamodeld */; };
+		AC6DFFED1E7903C4004C2593 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DFFEC1E7903C4004C2593 /* CoreDataManager.m */; };
+		AC8393571E7D9F1900193B0D /* _CDDog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8393541E7D9F1900193B0D /* _CDDog.m */; };
+		AC8393581E7D9F1900193B0D /* CDDog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8393561E7D9F1900193B0D /* CDDog.m */; };
 		AC9BA3FC1E64853C002BA3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA3FB1E64853C002BA3BC /* main.m */; };
 		AC9BA3FF1E64853C002BA3BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA3FE1E64853C002BA3BC /* AppDelegate.m */; };
 		AC9BA4051E64853C002BA3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4031E64853C002BA3BC /* Main.storyboard */; };
 		AC9BA4071E64853C002BA3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4061E64853C002BA3BC /* Assets.xcassets */; };
 		AC9BA40A1E64853C002BA3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4081E64853C002BA3BC /* LaunchScreen.storyboard */; };
-		AC9BA4131E648799002BA3BC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4121E648799002BA3BC /* Dog.m */; };
 		AC9BA4161E649837002BA3BC /* DogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4151E649837002BA3BC /* DogsViewController.m */; };
 		AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */; };
 		AC9BA41B1E649DF8002BA3BC /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */; };
@@ -29,11 +32,26 @@
 		AC9BA4361E64B68E002BA3BC /* 7dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */; };
 		AC9BA4371E64B68E002BA3BC /* 8dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */; };
 		AC9BA4381E64B68E002BA3BC /* 9dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */; };
+		ACA17E631E7A4EC900ED070A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6DFFE51E790183004C2593 /* CoreData.framework */; };
+		ACA17E651E7A505900ED070A /* libMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC39D8491E79B25A00924B6E /* libMagicalRecord.a */; };
+		ACA17E661E7A505900ED070A /* libPods-Dog Adoption.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC39D84A1E79B25A00924B6E /* libPods-Dog Adoption.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB92C0445EC3EA6CA2E7280 /* Pods-Dog Adoption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog Adoption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dog Adoption/Pods-Dog Adoption.debug.xcconfig"; sourceTree = "<group>"; };
+		355EB0CEDF200D43E7E85392 /* Pods-Dog Adoption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dog Adoption.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dog Adoption/Pods-Dog Adoption.release.xcconfig"; sourceTree = "<group>"; };
 		AC0096141E64DFE80091EEEE /* DogDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogDetailTableViewController.h; sourceTree = "<group>"; };
 		AC0096151E64DFE80091EEEE /* DogDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogDetailTableViewController.m; sourceTree = "<group>"; };
+		AC39D8491E79B25A00924B6E /* libMagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagicalRecord.a; path = "../../../Library/Developer/Xcode/DerivedData/Dog_Adoption-fsgpumkxqkasfvbtuhyxkejugjaf/Build/Products/Debug-iphonesimulator/MagicalRecord/libMagicalRecord.a"; sourceTree = "<group>"; };
+		AC39D84A1E79B25A00924B6E /* libPods-Dog Adoption.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Dog Adoption.a"; path = "../../../Library/Developer/Xcode/DerivedData/Dog_Adoption-fsgpumkxqkasfvbtuhyxkejugjaf/Build/Products/Debug-iphonesimulator/libPods-Dog Adoption.a"; sourceTree = "<group>"; };
+		AC6DFFE51E790183004C2593 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC6DFFE81E7901E3004C2593 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AC6DFFEB1E7903C4004C2593 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		AC6DFFEC1E7903C4004C2593 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		AC8393531E7D9F1900193B0D /* _CDDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _CDDog.h; path = "Dog Adoption/Mogenerator-CoreData/_CDDog.h"; sourceTree = SOURCE_ROOT; };
+		AC8393541E7D9F1900193B0D /* _CDDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _CDDog.m; path = "Dog Adoption/Mogenerator-CoreData/_CDDog.m"; sourceTree = SOURCE_ROOT; };
+		AC8393551E7D9F1900193B0D /* CDDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDDog.h; path = "Dog Adoption/Mogenerator-CoreData/CDDog.h"; sourceTree = SOURCE_ROOT; };
+		AC8393561E7D9F1900193B0D /* CDDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDDog.m; path = "Dog Adoption/Mogenerator-CoreData/CDDog.m"; sourceTree = SOURCE_ROOT; };
 		AC9BA3F71E64853C002BA3BC /* Dog Adoption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Adoption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9BA3FB1E64853C002BA3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC9BA3FD1E64853C002BA3BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,8 +60,6 @@
 		AC9BA4061E64853C002BA3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9BA4091E64853C002BA3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9BA40B1E64853C002BA3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC9BA4111E648799002BA3BC /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
-		AC9BA4121E648799002BA3BC /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		AC9BA4141E649837002BA3BC /* DogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogsViewController.h; sourceTree = "<group>"; };
 		AC9BA4151E649837002BA3BC /* DogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogsViewController.m; sourceTree = "<group>"; };
 		AC9BA4171E649DF8002BA3BC /* DogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogTableViewCell.h; sourceTree = "<group>"; };
@@ -63,6 +79,7 @@
 		AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7dog.jpeg; path = dogs/7dog.jpeg; sourceTree = "<group>"; };
 		AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8dog.jpeg; path = dogs/8dog.jpeg; sourceTree = "<group>"; };
 		AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9dog.jpeg; path = dogs/9dog.jpeg; sourceTree = "<group>"; };
+		EF0B274BD35FE318AA8F0F4E /* libPods-Dog Adoption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dog Adoption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,17 +87,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA17E651E7A505900ED070A /* libMagicalRecord.a in Frameworks */,
+				ACA17E661E7A505900ED070A /* libPods-Dog Adoption.a in Frameworks */,
+				ACA17E631E7A4EC900ED070A /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		822C08E6F3EB1A6C6B042324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC39D8491E79B25A00924B6E /* libMagicalRecord.a */,
+				AC39D84A1E79B25A00924B6E /* libPods-Dog Adoption.a */,
+				AC6DFFE51E790183004C2593 /* CoreData.framework */,
+				EF0B274BD35FE318AA8F0F4E /* libPods-Dog Adoption.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC39D83B1E79A2FB00924B6E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DFFE71E7901E3004C2593 /* Model.xcdatamodeld */,
+				AC39D83C1E79A30700924B6E /* Dog */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		AC39D83C1E79A30700924B6E /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				AC8393531E7D9F1900193B0D /* _CDDog.h */,
+				AC8393541E7D9F1900193B0D /* _CDDog.m */,
+				AC8393551E7D9F1900193B0D /* CDDog.h */,
+				AC8393561E7D9F1900193B0D /* CDDog.m */,
+			);
+			path = Dog;
+			sourceTree = "<group>";
+		};
+		AC6DFFEA1E7903A4004C2593 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AC6DFFEB1E7903C4004C2593 /* CoreDataManager.h */,
+				AC6DFFEC1E7903C4004C2593 /* CoreDataManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
 		AC9BA3EE1E64853B002BA3BC = {
 			isa = PBXGroup;
 			children = (
 				AC9BA3F91E64853C002BA3BC /* Dog Adoption */,
 				AC9BA3F81E64853C002BA3BC /* Products */,
+				EAC170108EF35D7562963A2D /* Pods */,
+				822C08E6F3EB1A6C6B042324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +157,8 @@
 		AC9BA3F91E64853C002BA3BC /* Dog Adoption */ = {
 			isa = PBXGroup;
 			children = (
+				AC39D83B1E79A2FB00924B6E /* CoreData */,
+				AC6DFFEA1E7903A4004C2593 /* Managers */,
 				AC9BA4221E64A00E002BA3BC /* Utilities */,
 				AC9BA4231E64A01F002BA3BC /* Dogs */,
 				AC9BA3FD1E64853C002BA3BC /* AppDelegate.h */,
@@ -140,8 +204,6 @@
 		AC9BA4231E64A01F002BA3BC /* Dogs */ = {
 			isa = PBXGroup;
 			children = (
-				AC9BA4111E648799002BA3BC /* Dog.h */,
-				AC9BA4121E648799002BA3BC /* Dog.m */,
 				AC9BA4171E649DF8002BA3BC /* DogTableViewCell.h */,
 				AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */,
 				AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */,
@@ -153,6 +215,15 @@
 			name = Dogs;
 			sourceTree = "<group>";
 		};
+		EAC170108EF35D7562963A2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB92C0445EC3EA6CA2E7280 /* Pods-Dog Adoption.debug.xcconfig */,
+				355EB0CEDF200D43E7E85392 /* Pods-Dog Adoption.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9BA40E1E64853C002BA3BC /* Build configuration list for PBXNativeTarget "Dog Adoption" */;
 			buildPhases = (
+				1CEBB39B0772F3433272CF56 /* [CP] Check Pods Manifest.lock */,
 				AC9BA3F31E64853B002BA3BC /* Sources */,
 				AC9BA3F41E64853B002BA3BC /* Frameworks */,
 				AC9BA3F51E64853B002BA3BC /* Resources */,
+				D94CAE0252B5D1C3D01BEAF4 /* [CP] Embed Pods Frameworks */,
+				3A183D94B8A6FA3D3BCDE3DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +258,7 @@
 				TargetAttributes = {
 					AC9BA3F61E64853B002BA3BC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AZZ5HNKYR9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -230,19 +305,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CEBB39B0772F3433272CF56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A183D94B8A6FA3D3BCDE3DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dog Adoption/Pods-Dog Adoption-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94CAE0252B5D1C3D01BEAF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dog Adoption/Pods-Dog Adoption-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC9BA3F31E64853B002BA3BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC9BA3FF1E64853C002BA3BC /* AppDelegate.m in Sources */,
+				AC8393581E7D9F1900193B0D /* CDDog.m in Sources */,
 				AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */,
 				AC9BA4201E649E3D002BA3BC /* UITableViewCell+GetClassName.m in Sources */,
-				AC9BA4131E648799002BA3BC /* Dog.m in Sources */,
 				AC9BA3FC1E64853C002BA3BC /* main.m in Sources */,
+				AC6DFFE91E7901E3004C2593 /* Model.xcdatamodeld in Sources */,
+				AC8393571E7D9F1900193B0D /* _CDDog.m in Sources */,
 				AC0096161E64DFE80091EEEE /* DogDetailTableViewController.m in Sources */,
 				AC9BA4211E649E3D002BA3BC /* UITableView+RegisterCustomCell.m in Sources */,
 				AC9BA4161E649837002BA3BC /* DogsViewController.m in Sources */,
+				AC6DFFED1E7903C4004C2593 /* CoreDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +484,10 @@
 		};
 		AC9BA40F1E64853C002BA3BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB92C0445EC3EA6CA2E7280 /* Pods-Dog Adoption.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AZZ5HNKYR9;
 				INFOPLIST_FILE = "Dog Adoption/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
@@ -369,8 +497,10 @@
 		};
 		AC9BA4101E64853C002BA3BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355EB0CEDF200D43E7E85392 /* Pods-Dog Adoption.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AZZ5HNKYR9;
 				INFOPLIST_FILE = "Dog Adoption/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
@@ -400,6 +530,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC6DFFE71E7901E3004C2593 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC6DFFE81E7901E3004C2593 /* Model.xcdatamodel */,
+			);
+			currentVersion = AC6DFFE81E7901E3004C2593 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC9BA3EF1E64853B002BA3BC /* Project object */;
 }
